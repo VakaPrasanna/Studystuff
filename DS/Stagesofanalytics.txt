@@ -1,0 +1,43 @@
+CRISP-ML(Q) SESSION -1:
+
+
+
+1) What are the 4 stages of Analytics? Define them.
+
+A) The 4 stages of Analytics are: 
+
+1) Descriptive Analytics:
+
+  * It deals with "WHAT HAPPENED?" and analyzes all the historical data and knows what happened in the past. It gives everything about past data in detail and in a summarized way.
+
+ 2) Diagnostic Analytics:
+
+   * It deals with "WHY DID IT HAPPEN?". It would deeply find the reasons/factors for the past events.
+
+3) Predictive Analytics:
+
+* It deals with "WHAT WILL HAPPEN IN FUTURE?". It makes predictions for the future. It discovers interesting patterns and trends from past data using Statistics and Machine Learning algorithms. These trends are useful for future analysis.
+
+4) Prescriptive Analytics:
+
+ * It deals with "WHAT IS TO BE DONE?" and is based on "What-If" analysis.
+
+ *It provides actionable insights and guidance for the right decision-making to achieve desired future results.
+
+
+
+2. What is the abbreviation of CRISP-ML(Q) and the '6' phases?
+
+Ans: CRISP-ML(Q):  CRoss Industry Standard Process for Machine Learning with Quality Assurance. 6 stages are:
+
+1. Business and Data Understanding
+
+2. Data Preparation
+
+3. Model Building and Tuning 
+
+4. Evaluation
+
+5. Model Deployment
+
+6. Monitoring and Maintenance
