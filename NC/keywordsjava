@@ -1,0 +1,71 @@
+Keywords denoting primitive data types:
+byte: an integer data type occupying only one byte
+short: an integer data type, a short integer
+int: an integer data type, a regular integer
+long: an integer data type, a long integer
+char: character data type
+float: a data type for floating-point numbers (with a floating point and single precision)
+double: a data type for floating-point numbers (with a floating point and double precision)
+boolean: a data type for logical values
+
+
+Keywords used in such algorithmic constructs as branching and looping:
+if: checks the condition for executing a block of instructions
+else: executes an alternative block of instructions
+switch: is used to determine a multiple selection parameter
+case: determines the label and the block of instructions that will be executed if the value of the multiple selection parameter matches the label
+default: determines the block of instructions that will be executed if the value of the multiple selection parameter does not match any of the specified labels
+while: determines the loop that repeats a block of instructions as well as the condition for continuing the loop
+do: determines the loop that repeats a block of instructions
+break: is used to exit some construct
+continue: is used to exit the current looping iteration and enter the next one
+for: determines the loop that repeats a block of instructions a certain number of times
+
+
+Keywords used to specify the visibility scope (access modifiers):
+private: indicates that elements of other classes cannot access a method or variable of the given class
+protected: indicates that other elements of the given class, its subclasses, or classes of the same package can access a method or variable of that class
+public: indicates that other elements of any class can access a method or variable of the given class
+
+
+Keywords used for declaration as well as for import:
+import: specifies the classes and packages that will be imported (as an option, imported statically)
+package: declares a package
+class: declares a class
+interface: declares an interface
+enum: declares an enumerated type
+extends: is used to declare a class and indicates a superclass
+implements: is used to declare that a class implements interfaces
+static: indicates that attributes/methods of a given class relate to the whole class not just an instance and they may be used without creating an object
+final: is used for creating constants (non-changeable data), non-changeable methods, non-heritable classes
+void: specifies that a method returns no value
+abstract: is used to declare classes and methods; such a class cannot have an instance, and the method does not have a body
+native: specifies that a method is implemented in a platform-dependent code, often in the C language; this modifier has, for example, the method hashcode in Object
+
+
+Keywords used for creation, returns, and calls:
+var: declares a variable
+new: creates objects
+return: returns a value from a method
+this: refers to the current object in a method
+super: refers to superclass (parent) objects
+
+
+Keywords used to handle exceptions:
+try: specifies a block of code that controls the occurrence of instruction exceptions
+catch: specifies a block of code that is executed if an exception occurs
+finally: specifies a block of code that will be executed no matter whether there is an exception or not
+throw: is used to generate (throw) an exception
+throws: indicates that method could generate (throw) an exceptions
+
+
+Keywords used for multithreaded programming:
+synchronized: specifies that a method or a block of code can only be accessed by one thread at a time
+volatile: specifies that a change in a variable by one thread will be accessible by all the other threads
+
+
+Keywords that were not included in any of the above groups:
+instanceof: an operator used to check whether an object is an instance of a specific class or an interface
+assert: allows to verify data and break execution
+transient: is applied to class attributes and means that an attribute is not part of an object's persistent state
+strictfp: guarantees that calculations with a floating point will be done consistently on all platforms
